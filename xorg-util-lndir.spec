@@ -1,12 +1,12 @@
 Summary:	lndir utility
 Summary(pl):	Narzêdzie lndir
 Name:		xorg-util-lndir
-Version:	1.0.0
+Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Tools
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/util/lndir-%{version}.tar.bz2
-# Source0-md5:	a6e3f4d402654fbb8f965456cf94e7ab
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/util/lndir-X11R7.0-%{version}.tar.bz2
+# Source0-md5:	aa3616b9795e2445c85b2c79b0f94f7b
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -22,7 +22,7 @@ lndir utility.
 Narzêdzie lndir.
 
 %prep
-%setup -q -n lndir-%{version}
+%setup -q -n lndir-X11R7.0-%{version}
 
 %build
 %{__aclocal}
@@ -43,6 +43,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/lndir
 %{_mandir}/man1/lndir.1x*
