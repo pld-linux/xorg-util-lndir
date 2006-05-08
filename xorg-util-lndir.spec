@@ -6,7 +6,7 @@ Release:	1
 License:	MIT
 Group:		X11/Development/Tools
 Source0:	http://xorg.freedesktop.org/releases/individual/util/lndir-%{version}.tar.bz2
-# Source0-md5:	aa3616b9795e2445c85b2c79b0f94f7b
+# Source0-md5:	e274ea9f55dfd62afa0a7b1e1ab4ba96
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
