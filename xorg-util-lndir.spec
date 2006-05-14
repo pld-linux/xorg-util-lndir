@@ -22,7 +22,7 @@ lndir utility.
 Narzêdzie lndir.
 
 %prep
-%setup -q -n lndir-X11R7.0-%{version}
+%setup -q -n lndir-%{version}
 
 %build
 %{__aclocal}
