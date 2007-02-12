@@ -1,5 +1,5 @@
 Summary:	lndir utility - create a directory of symbolic links to another directory tree
-Summary(pl):	Narzêdzie lndir - tworzenie katalogu dowi±zañ symbolicznych do innego drzewa
+Summary(pl.UTF-8):   NarzÄ™dzie lndir - tworzenie katalogu dowiÄ…zaÅ„ symbolicznych do innego drzewa
 Name:		xorg-util-lndir
 Version:	1.0.1
 Release:	1
@@ -24,13 +24,13 @@ machine architectures. You create a shadow directory containing links
 to the real source, which you will have usually mounted from a remote
 machine.
 
-%description -l pl
-Program lndir tworzy kopiê ¼ród³owego drzewa katalogów z t± ró¿nic±,
-¿e nie kopiuje samych plików, a jedynie tworzy dowi±zania symboliczne
-wskazuj±ce na prawdziwe pliki w ¼ród³owym drzewie katalogów. Jest to
-zwykle przydatne do utrzymywania kodu ¼ród³owego dla ró¿nych
-architektur. Tworzy siê wtedy katalog zawieraj±cy dowi±zania do
-prawdziwych ¼róde³, które mo¿na mieæ podmontowane ze zdalnej maszyny.
+%description -l pl.UTF-8
+Program lndir tworzy kopiÄ™ ÅºrÃ³dÅ‚owego drzewa katalogÃ³w z tÄ… rÃ³Å¼nicÄ…,
+Å¼e nie kopiuje samych plikÃ³w, a jedynie tworzy dowiÄ…zania symboliczne
+wskazujÄ…ce na prawdziwe pliki w ÅºrÃ³dÅ‚owym drzewie katalogÃ³w. Jest to
+zwykle przydatne do utrzymywania kodu ÅºrÃ³dÅ‚owego dla rÃ³Å¼nych
+architektur. Tworzy siÄ™ wtedy katalog zawierajÄ…cy dowiÄ…zania do
+prawdziwych ÅºrÃ³deÅ‚, ktÃ³re moÅ¼na mieÄ‡ podmontowane ze zdalnej maszyny.
 
 %prep
 %setup -q -n lndir-%{version}
