@@ -1,18 +1,18 @@
 Summary:	lndir utility - create a directory of symbolic links to another directory tree
 Summary(pl.UTF-8):	Narzędzie lndir - tworzenie katalogu dowiązań symbolicznych do innego drzewa
 Name:		xorg-util-lndir
-Version:	1.0.1
-Release:	2
+Version:	1.0.2
+Release:	1
 License:	MIT
 Group:		X11/Development/Tools
 Source0:	http://xorg.freedesktop.org/releases/individual/util/lndir-%{version}.tar.bz2
-# Source0-md5:	e274ea9f55dfd62afa0a7b1e1ab4ba96
+# Source0-md5:	619acbb2ed766d7762f02328513b1f72
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-proto-xproto-devel
-BuildRequires:	xorg-util-util-macros >= 0.99.2
+BuildRequires:	xorg-util-util-macros >= 1.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -54,6 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog
+%doc COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/lndir
 %{_mandir}/man1/lndir.1x*
